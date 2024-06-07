@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    color: white;
+    padding: 45px;
+}
+h1{
+    font-weight: 400;
+    font-size: 60px;
+}
+p{
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 300;
+}
+hr{
+    width: 13%;
+    margin-top: 10px;
+}
+#error{
+    color: red;
+    margin-top: 30px;
+}
+.btn-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 13px;
+}
+.btn{
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+#clear{
+    border: 1px solid lightgray;
+    color: white;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}

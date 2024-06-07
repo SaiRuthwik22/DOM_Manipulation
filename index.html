@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./script.js" ></script>
+    <h1>Counter using HTML</h1>
+    <p>Your current count is : <span id="count">1</span></p>
+    <hr>
+    <div id="error" style="display: none;">Error : Cannot go below 0 </div>
+    <div class="btn-container">
+        <button class="btn" id="decrementbtn" onclick="decrement()" >Decrement</button>
+        <button class="btn" onclick="increment()">Increment</button>
+        <button id="clear" onclick="clearing()">Clear</button>
+    </div>
+</body>
+</html>
